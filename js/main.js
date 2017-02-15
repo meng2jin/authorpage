@@ -13,7 +13,7 @@ var highlightCurrentNavItem = function(route) {
 };
 
 var homeTypeEffect = function() {
-  var stringToType = 'Meng Jin<br>writes sentences<br>in<br><p class="typed-place">New York.</p>';
+  var stringToType = 'Meng Jin<br>writes sentences<br>in<br><p class="typed-place">England.</p>';
   $('.type-container').typed({
     strings: [stringToType],
     showCursor: false,
