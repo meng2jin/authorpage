@@ -1,0 +1,107 @@
+.nav-bar {
+  margin-top: 10px;
+}
+
+.nav-item {
+  display: inline;
+  margin-right: 15px;
+  font-family: 'Alegreya Sans';
+  font-weight: 200;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  color: #16a085;
+}
+
+.content-pane {
+  margin-top: 50px;
+}
+
+.type-container {
+  font-size: 50px;
+  font-family: 'Alegreya Sans';
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.bio-container {
+  font-family: 'Alegreya Sans';
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.writing-container a {
+  color: black;
+  text-decoration: none;
+}
+
+.writing-container p {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: 'Alegreya Sans';
+}
+
+.writing-container-interviews {
+  margin-top: 35px;
+}
+
+.writing-container .heading {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.active-nav-item {
+  color: #1abc9c;
+}
+
+.contact-container a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+@media (min-width: 550px) {
+  .nav-bar {
+    margin-top: 100px;
+  }
+
+  .nav-item {
+    margin-right: 20px;
+    font-size: 20px;
+  }
+
+  .content-pane {
+    margin-top: 40px;
+  }
+
+  .type-container {
+    font-size: 100px;
+  }
+
+  .writing-container .heading {
+    font-size: 25px;
+  }
+
+  .writing-container a:hover {
+    color: #16a085;
+  }
+
+  .bio-container {
+    font-size: 20px;
+  }
+
+  .contact-container a {
+    font-size: 25px;
+  }
+
+  .contact-container a:hover {
+    color: #16a085;
+  }
+
+  .content-pane > div {
+    display: none;
+  }
+}
