@@ -14,12 +14,16 @@ var highlightCurrentNavItem = function(route) {
 
 var homeTypeEffect = function() {
   var stringToType = 'Meng<br>writes<br>a<br><p class="typed-place">book:</p>';
-  $('.type-container').typed({
+
+  var options = {
     strings: [stringToType],
     showCursor: false,
     typeSpeed: 15,
-    startDelay: 100
-  })
+    startDelay: 100,
+    onComplete: function() { $('.cover').fadeIn({ duration: 1000 }) }
+  };
+
+  new Typed('.type-container', options);
 };
 
 var homeContent = $('#home-content').html();
