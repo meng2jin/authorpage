@@ -30,6 +30,7 @@ var homeContent = $('#home-content').html();
 var bioContent = $('#bio-content').html();
 var writingContent = $('#writing-content').html();
 var contactContent = $('#contact-content').html();
+var littleGodsContent = $('#little-gods-content').html();
 
 var routes = {
   '/': function() {
@@ -47,6 +48,10 @@ var routes = {
   '/contact': function() {
     insertContent(contactContent);
     highlightCurrentNavItem('contact');
+  },
+  '/little-gods': function() {
+    insertContent(littleGodsContent);
+    highlightCurrentNavItem('little-gods');
   }
 };
 
