@@ -27,6 +27,10 @@
   line-height: 1.15;
 }
 
+.bold {
+  font-weight: bold;
+}
+  
 .bio-container {
   font-family: 'Alegreya Sans';
   font-weight: 200;
@@ -68,7 +72,7 @@
 
 .contact-container {
   font-family: 'Alegreya Sans';
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .cover-container {
