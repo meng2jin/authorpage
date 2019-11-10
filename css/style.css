@@ -87,6 +87,15 @@
   align-items: 'center';
 }
 
+.little-gods-container a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+.little-gods-container a:hover {
+   color: #16a085;
+ }
+
 .little-gods-hero {
   width: 50%;
   margin-bottom: 40px;
