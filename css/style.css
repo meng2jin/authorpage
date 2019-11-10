@@ -58,10 +58,17 @@
 }
 
 .contact-container a {
-  font-family: 'Alegreya Sans';
-  font-size: 16px;
   color: black;
   text-decoration: none;
+}
+
+.contact-container a:hover {
+   color: #16a085;
+ }
+
+.contact-container {
+  font-family: 'Alegreya Sans';
+  font-size: 16px;
 }
 
 .cover-container {
@@ -113,14 +120,6 @@
 
   .bio-container {
     font-size: 20px;
-  }
-
-  .contact-container a {
-    font-size: 25px;
-  }
-
-  .contact-container a:hover {
-    color: #16a085;
   }
 
   .content-pane > div {
