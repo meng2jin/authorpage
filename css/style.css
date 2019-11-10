@@ -58,7 +58,8 @@
 }
 
 .contact-container a {
-  font-size: 18px;
+  font-family: 'Alegreya Sans';
+  font-size: 16px;
   color: black;
   text-decoration: none;
 }
@@ -73,6 +74,8 @@
 }
 
 .little-gods-container {
+  font-size: 16px;
+  font-family: 'Alegreya Sans';
   display: 'flex';
   align-items: 'center';
 }
